@@ -16,7 +16,7 @@ Atanapi is a CPU mineable cryptocurrency and open source software developed unde
 **Coin name:** | Atanapi (NAPI)
 **Initial block reward:** | 2000 NAPI
 **Average block time:** | 120 Second
-**Smartnode Payments Start Block**: | 8400
+**Smartnode Payments Start Block**: | 10000
 **Algorithm:** | GhostRider (ASIC and FPGA resistance)
 **Block Reward:** | 70% Miners 25% Smartnode 4% Exchange 1% Community
  
