@@ -6,9 +6,9 @@ Welcome to Atanapi
 Atanapi is a CPU mineable cryptocurrency and open source software developed under MIT license. It can be mined on GPU too, but CPU mining is more efficient.
 
 # Wallets
-- [Download Atanapi Core wallet for Windows](https://github.com/atanapi/atanapi/releases/)
-- [Download Atanapi Core wallet for Macos](https://github.com/atanapi/atanapi/releases/)
-- [Download Atanapi Core wallet for Ubuntu](https://github.com/atanapi/atanapi/releases/)
+- [Download Atanapi Core wallet for Windows](https://github.com/atanapi/atanapi-core/releases/)
+- [Download Atanapi Core wallet for Macos](https://github.com/atanapi/atanapi-core/releases/)
+- [Download Atanapi Core wallet for Ubuntu](https://github.com/atanapi/atanapi-core/releases/)
 
 # Coin specifications:
 &nbsp; | &nbsp;
