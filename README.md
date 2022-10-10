@@ -19,7 +19,7 @@ Atanapi is a CPU mineable cryptocurrency and open source software developed unde
 **Smartnode Payments Start Block**: | 8400
 **Algorithm:** | GhostRider (ASIC and FPGA resistance)
 **Premine:** | none
-**Block Reward:** | 70% Miners 25% Smartnode 3% Dev 1% Exchange 1 % Community Reward.
+**Block Reward:** | 70% Miners 25% Smartnode 5% Exchange
  
 
 License
