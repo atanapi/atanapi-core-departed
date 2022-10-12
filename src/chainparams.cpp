@@ -459,6 +459,17 @@ public:
         consensus.nMinerConfirmationWindow = 2016; // nPowTargetTimespan / nPowTargetSpacing
         consensus.smartnodePaymentFixedBlock = 8900;
         consensus.nFutureForkBlock = 9999999;
+        consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].bit = 28;
+        consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].nStartTime = 1199145601; // January 1, 2008
+        consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].nTimeout = 1230767999; // December 31, 2008
+
+        consensus.vDeployments[Consensus::DEPLOYMENT_V17].bit = 0;
+        consensus.vDeployments[Consensus::DEPLOYMENT_V17].nStartTime = 9999999999; // 1643670001; // Feb 01, 2022 00:00:01hrs
+        consensus.vDeployments[Consensus::DEPLOYMENT_V17].nTimeout = 9999999999; // 1675206001; // Feb 01, 2023 00:00:01hrs
+        consensus.vDeployments[Consensus::DEPLOYMENT_V17].nWindowSize = 4032;
+        consensus.vDeployments[Consensus::DEPLOYMENT_V17].nThresholdStart = 3226; // 80% of 4032
+        consensus.vDeployments[Consensus::DEPLOYMENT_V17].nThresholdMin = 2420; // 60% of 4032
+        consensus.vDeployments[Consensus::DEPLOYMENT_V17].nFalloffCoeff = 5; // this corresponds to 10 periods	    
 		
         consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000140033"); // 855
 
@@ -542,8 +553,7 @@ public:
 
         checkpointData = {
             {
-                 {    0, uint256S("0x555a58b65bfd76ba18916ed7933cbdf7585e99c7186367c2cefe9ab2915c40e3")},
-				 {    855, uint256S("0xe64a50e399a6f40f30758e66886ffca2f28efa7738e1f34ccd5c191d1971eb2e")},				
+			
             }
         };
 
