@@ -435,7 +435,7 @@ public:
         consensus.nBudgetPaymentsCycleBlocks = 16615; // ~(60*24*30)/2.6, actual number of blocks per month is 199380 / 12 = 16615
         consensus.nBudgetPaymentsWindowBlocks = 100;
         consensus.nSuperblockStartBlock = INT_MAX; // The block at which 12.1 goes live (end of final 12.0 budget cycle)
-        consensus.nSuperblockStartHash = uint256S("0xe64a50e399a6f40f30758e66886ffca2f28efa7738e1f34ccd5c191d1971eb2e");
+        consensus.nSuperblockStartHash = uint256S("0000000000020cb27c7ef164d21003d5d20cdca2f54dd9a9ca6d45f4d47f8aa3");
         consensus.nSuperblockCycle = 16615; // ~(60*24*30)/2.6, actual number of blocks per month is 199380 / 12 = 16615
         consensus.nGovernanceMinQuorum = 10;
         consensus.nGovernanceFilterElements = 20000;
@@ -471,10 +471,10 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_V17].nThresholdMin = 2420; // 60% of 4032
         consensus.vDeployments[Consensus::DEPLOYMENT_V17].nFalloffCoeff = 5; // this corresponds to 10 periods	    
 		
-        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000140033"); // 855
+        consensus.nMinimumChainWork = uint256S("0x0");
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0xe64a50e399a6f40f30758e66886ffca2f28efa7738e1f34ccd5c191d1971eb2e"); // 855
+        consensus.defaultAssumeValid = uint256S("0x0");
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
